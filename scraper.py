@@ -24,7 +24,7 @@ def check_price():
     # print(converted_price)
     # print(title.strip())
 
-    if (converted_price == 2000):
+    if (converted_price < 2000):
         send_mail()
         # print('it works')
 
