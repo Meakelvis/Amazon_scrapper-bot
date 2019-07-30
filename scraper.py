@@ -2,7 +2,6 @@ import requests
 from bs4 import BeautifulSoup
 import smtplib
 import time
-import array as arr
 
 URL = 'https://www.amazon.com/Apple-MacBook-9th-generation-Intel-Core-i9-processor/dp/B07S58MHXF/ref=mp_s_a_1_3?keywords=macbook+pro&qid=1564506496&s=gateway&sr=8-3'
 
