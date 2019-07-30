@@ -19,12 +19,12 @@ def check_price():
     # convert the price string into a float and select the first 5 characters
     string_price = price[1:6]
     int_price = string_price.replace(',', '')
-    converted_price = float(int_price)
+    converted_price = int(int_price)
 
     # print(converted_price)
     # print(title.strip())
 
-    if (converted_price == 2000.0):
+    if (converted_price == 2000):
         send_mail()
         # print('it works')
 
